@@ -13,8 +13,8 @@ class Doctor
   end
 
    def patients
-     self.patient.collect do |appointment|
-       appointments.patient
+     @appointments.collect do |appointment|
+       appointment.patient
      end
    end
 
