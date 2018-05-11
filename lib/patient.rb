@@ -1,7 +1,7 @@
 require 'pry'
 class Patient
 
-  attr_accessor :name
+  attr_accessor :name, :appointments
   #attr_reader :songs
 
   def initialize(name)
@@ -21,4 +21,4 @@ class Patient
        appointment.doctor
      end
    end
-end
+end 
